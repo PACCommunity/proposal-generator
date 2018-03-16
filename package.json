@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dashevo/proposal-generator.git"
+    "url": "git+https://github.com/PACCommunity/proposal-generator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dashevo/proposal-generator/issues"
+    "url": "https://github.com/PACCommunity/proposal-generator/issues"
   },
-  "homepage": "https://github.com/dashevo/proposal-generator#readme",
+  "homepage": "https://github.com/PACCommunity/proposal-generator#readme",
   "devDependencies": {
-    "bitcore-lib-dash": "^0.15.0",
-    "browserify": "^14.3.0",
+    "bitcore-lib-pac": "^0.16.0",
+    "browserify": "^16.1.1",
     "eslint": "^4.8.0"
   }
 }

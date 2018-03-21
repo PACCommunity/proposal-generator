@@ -3,11 +3,11 @@ var Bitcore = require('bitcore-lib-pac');
 var socket;
 var paymentCycle;
 
-var mainnetProvider = 'http://explorer.pachub.io:3001';
-var mainnetPrefix = '/insight-pac-api';
+var mainnetProvider = 'http://explorer.pachub.io';
+var mainnetPrefix = '/api';
 
-var testnetProvider = 'http://explorer-testnet.pachub.io:3001';
-var testnetPrefix = '/insight-pac-api';
+var testnetProvider = 'http://testnet.pachub.io';
+var testnetPrefix = '/api';
 
 var init = function(network, provider, prefix) {
     var gov = new Bitcore.GovObject.Proposal();
